@@ -1,0 +1,9 @@
+<div class="row g-0 mt-3 p-2">
+    <div class="col-4 offset-8 d-flex align-items-end flex-column">
+        <form (ngSubmit)="search($event)" class="col-12 d-flex">
+            <!-- <input name="value" [(ngModel)]="value" class="form-control me-1" type="search" placeholder="Search" aria-label="Search"> -->
+            <input name="message" [value]="message" class="form-control me-1" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-primary" type="submit">Search</button>
+        </form>
+    </div>
+</div>
